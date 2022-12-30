@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const ContactButton = ({img, action, contact, url, top}) => {
 
-	const SC_div_contact_but = styled.div`
+	const STYLED_DIV_CONTACT_BUT = styled.div`
 		border: 2px solid #100BF5;
 		border-radius: 10px;
 		display: flex;
@@ -32,13 +32,13 @@ const ContactButton = ({img, action, contact, url, top}) => {
 	`
 
 	return (
-		<SC_div_contact_but>
+		<STYLED_DIV_CONTACT_BUT>
 			<img src={img} alt="" />
 			<div>
 				{action}<br/>
 				<a href={url}>{contact}</a>
 			</div>
-		</SC_div_contact_but>
+		</STYLED_DIV_CONTACT_BUT>
 	)
 }
 

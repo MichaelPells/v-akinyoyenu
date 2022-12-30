@@ -12,7 +12,7 @@ import linkedin from '../assets/images/linkedin.png'
 import facebook from '../assets/images/facebook.png'
 import instagram from '../assets/images/instagram.png'
 
-const Styled_div_footer = styled.div`
+const STYLED_DIV_FOOTER = styled.div`
 	.footer_top {
 		background: #ffffff;
 		padding: 50px;
@@ -120,7 +120,7 @@ const Styled_div_footer = styled.div`
 const Footer = () => {
 
     return (
-        <Styled_div_footer>
+        <STYLED_DIV_FOOTER>
 			<div className="footer_top">
 				<div class="footer_top_left">
 					<h2>
@@ -176,7 +176,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-        </Styled_div_footer>
+        </STYLED_DIV_FOOTER>
     )
 }
 

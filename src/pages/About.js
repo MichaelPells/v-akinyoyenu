@@ -15,7 +15,7 @@ import invision from '../assets/images/invision_icon.png'
 import html5 from '../assets/images/html5_icon.png'
 import css3 from '../assets/images/css3_icon.png'
 
-const Styled_div_about = styled.div`
+const STYLED_DIV_ABOUT = styled.div`
 	padding: 50px;
 
 	h2 {
@@ -98,7 +98,7 @@ const About = () => {
     return (
         <React.Fragment>
 			<Header active="about"/>
-			<Styled_div_about>
+			<STYLED_DIV_ABOUT>
 				<h2> I am happy to meet you </h2>
 				<p className="intro">
 					I'm a UI/UX designer living in Berlin, Germany. UX is central to everything I do. I love to work on meaningful projects with inspiring, creative people that challenge the status quo with a focus on user experience.
@@ -194,7 +194,7 @@ const About = () => {
 				Vincent Oluwadamilare <br/>
 				+491786688559 <br/>
 				vindamilare@gmail.com <br/>
-			</Styled_div_about>
+			</STYLED_DIV_ABOUT>
 			<Footer />
         </React.Fragment>
     )

@@ -11,7 +11,7 @@ import navig_right from '../assets/images/navig_right.png'
 import speaker_1 from '../assets/images/speaker_1.png'
 import video_1_thumbnail from '../assets/images/video_1_thumbnail.png'
 
-const Styled_div_home = styled.div`
+const STYLED_DIV_HOME = styled.div`
 	.container {
 		padding: 0px 50px 0px 50px;
 	}
@@ -204,7 +204,7 @@ const Home = () => {
     return (
         <React.Fragment>
 			<Header active="home"/>
-			<Styled_div_home>
+			<STYLED_DIV_HOME>
 				<div className="container">
 					<div className="lead">
 						<h1 className="heading1">
@@ -310,7 +310,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</Styled_div_home>
+			</STYLED_DIV_HOME>
 			<Footer />
         </React.Fragment>
     )

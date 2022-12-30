@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import dp from '../assets/images/dp.png'
 import lang from '../assets/images/lang.png'
 
-const Styled_div_header = styled.div`
+const STYLED_DIV_HEADER = styled.div`
 	margin: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -59,7 +59,7 @@ const Styled_div_header = styled.div`
 const Header = ({active}) => {
 
     return (
-        <Styled_div_header>
+        <STYLED_DIV_HEADER>
 			<div className="dp">
 				<img src={dp} alt="" />
 			</div>
@@ -100,7 +100,7 @@ const Header = ({active}) => {
 					<img src={lang} alt="" />
 				</div>
 			</div>
-        </Styled_div_header>
+        </STYLED_DIV_HEADER>
     )
 }
 

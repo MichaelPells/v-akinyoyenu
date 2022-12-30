@@ -13,7 +13,7 @@ import instagram from '../assets/images/instagram.png'
 import send from '../assets/images/send.png'
 
 
-const Styled_div_contact = styled.div`
+const STYLED_DIV_CONTACT = styled.div`
 	padding: 50px;
 	padding-top: 4.17em;
 
@@ -152,7 +152,7 @@ const Contact = () => {
     return (
         <React.Fragment>
 			<Header active="contact"/>
-			<Styled_div_contact>
+			<STYLED_DIV_CONTACT>
 				<div className="left">
 					<h2> Do you need me to be part of your team? Just send a message. </h2>
 					<div> Feel free to contact me. I reply within 24 hours. </div>
@@ -190,7 +190,7 @@ const Contact = () => {
 						<input type="submit" value="Send Message"/>
 					</form>
 				</div>
-			</Styled_div_contact>
+			</STYLED_DIV_CONTACT>
 			<Footer />
         </React.Fragment>
     )
