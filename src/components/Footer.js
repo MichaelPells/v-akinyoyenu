@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import ContactButton from './ContactButton'
 
 import download from '../assets/images/download.png'
-import chat from '../assets/images/chat.svg'
-import call from '../assets/images/call.svg'
+import chat from '../assets/images/chat.png'
+import call from '../assets/images/call.png'
 import footer_dp from '../assets/images/footer_dp.png'
 import twitter from '../assets/images/twitter.png'
 import linkedin from '../assets/images/linkedin.png'
@@ -41,27 +41,14 @@ const Styled_div_footer = styled.div`
 		width: 40%;
 	}
 
-	.dowload_res {
-		background: #100BF5;
+	button {
+		background: #100BF5 url(${download}) no-repeat;
+		background-position: right 20px center;
+		border: none;
 		border-radius: 8px;
-		padding: 18px 20px 18px 20px;
+		padding: 18px 5em 18px 20px;
 		color: #ffffff;
-		display: inline-block;
-
-		div {
-			float: left;
-			margin-right: 60px;
-			vertical-align: bottom;
-			font-weight: 400;
-			font-size: 0.83em;
-		}
-
-		img {
-			display: table-cell;
-			vertical-align: middle;
-			filter: invert(100%);
-			-webkit-filter: invert(100%);
-		}
+		font-size: 0.83em;
 	}
 
 	.footer_bottom_container {
@@ -144,12 +131,7 @@ const Footer = () => {
 						<br/>
 						<br/>
 					</p>
-					<div className="dowload_res">
-						<div>
-							Download Resume
-						</div>
-						<img src={download} alt="" />
-					</div>
+					<button> Download Resume </button>
 				</div>
 				<div class="footer_top_right">
 					<ContactButton img={chat} action="Chat with me" contact="vindamilare@gmail.com" url="mailto:vindamilare@gmail.com" top="true" />

@@ -16,9 +16,7 @@ const ContactButton = ({img, action, contact, url, top}) => {
 
 		img {
 			display: inline-block;
-			filter: invert(19%) sepia(82%) saturate(7452%) hue-rotate(241deg) brightness(80%) contrast(155%);
-			-webkit-filter: invert(19%) sepia(82%) saturate(7452%) hue-rotate(241deg) brightness(80%) contrast(155%);
-			height: 2em;
+			height: 80px;
 			margin-right: 1.33em;
 		}
 

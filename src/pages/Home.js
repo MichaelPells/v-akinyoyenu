@@ -23,7 +23,7 @@ const Styled_div_home = styled.div`
 		background-size: contain;
 		background-color: #100BF5;
 		border-radius: 10px;
-		padding: 50px 269px 120px 50px;
+		padding: 50px 13em 120px 50px;
 		color: #ffffff;
 
 		a {
@@ -88,11 +88,9 @@ const Styled_div_home = styled.div`
 
 	.navig_button {
 		display: inline-block;
-		border: #000000 3px solid;
+		border: #100BF5 3px solid;
 		border-radius: 50%;
-		padding: 9px;
-		filter: invert(19%) sepia(82%) saturate(7452%) hue-rotate(241deg) brightness(80%) contrast(155%);
-		-webkit-filter: invert(19%) sepia(82%) saturate(7452%) hue-rotate(241deg) brightness(80%) contrast(155%);
+		padding: 2px;
 		margin-left: 15px;
 		margin-right: 15px;
 	}
@@ -205,7 +203,7 @@ const Home = () => {
 
     return (
         <React.Fragment>
-			<Header />
+			<Header active="home"/>
 			<Styled_div_home>
 				<div className="container">
 					<div className="lead">

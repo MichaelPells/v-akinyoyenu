@@ -59,7 +59,7 @@ const Styled_div_about = styled.div`
 		min-width: 210px; /* verify later */
 		box-sizing: border-box;
 		padding: 0px 40px 40px 40px;
-		font-weight: 500;
+		font-weight: 400;
 		font-size: 1.33em;
 		text-align: justify;
 		vertical-align: top;
@@ -67,7 +67,7 @@ const Styled_div_about = styled.div`
 
 	.note {
 		padding: 0px 40px 0px 40px;
-		font-weight: 500;
+		font-weight: 400;
 		font-size: 1.33em;
 		text-align: justify;
 	}
@@ -97,7 +97,7 @@ const About = () => {
 
     return (
         <React.Fragment>
-			<Header />
+			<Header active="about"/>
 			<Styled_div_about>
 				<h2> I am happy to meet you </h2>
 				<p className="intro">
